@@ -85,7 +85,7 @@ while script_running == 1:
 
             else:
                 print('shutting down...')
-            dice_running = 'n'
+                dice_running = 'n'
 
 
 
