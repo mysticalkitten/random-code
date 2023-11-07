@@ -38,9 +38,9 @@ while script_running == 1:
         import random
 
         # start of dice loop
-        dice_running = 11
+        dice_running = 'y'
 
-        while dice_running > 1:
+        while dice_running == 'y':
             # clears screen
             for i in range(100):
                 print()
@@ -85,7 +85,7 @@ while script_running == 1:
 
             else:
                 print('shutting down...')
-            dice_running = 0
+            dice_running = 'n'
 
 
 
